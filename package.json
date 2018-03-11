@@ -1,0 +1,23 @@
+{
+  "name": "bitcoin-action-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "actions-on-google": "^1.10.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  },
+  "scripts": {
+    "start": "ts-node index",
+    "start:dev": "ts-node-dev index"
+  },
+  "devDependencies": {
+    "@types/actions-on-google": "^1.8.0",
+    "@types/request": "^2.47.0",
+    "ts-node": "^5.0.1",
+    "ts-node-dev": "^1.0.0-pre.18",
+    "typescript": "^2.7.2"
+  }
+}
